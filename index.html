@@ -48,52 +48,59 @@
 
 <body id="carre" class="couleur_blanc" id="page-top">
 
-<!-- ========================================== TOP HEADER =============================================== -->
+<header>
+<!-- ========================================== NAVABAR =============================================== -->
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-  <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
-    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#service">Service</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-      </ul>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#">Start Webdotcom</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
 
 <!-- ============================ TOGGLE BUTTON ================================ -->
 
-  <label class="switch">
-    <input type="checkbox" id="action">
-      <span class="slider round"></span>
-  </label>
+    <label class="switch">
+      <input type="checkbox" id="action">
+        <span class="slider round"></span>
+    </label>
 
-</nav>
+  </nav>
 
 <!-- ============================================== JUMBOTRON ============================================== -->
 
-<center>
-  <div class="jumbotron" >
-      <img class="image-responsive" src="../Webdotcom/image/Sans titre - 51.png" alt="">
-  </div>
-</center>
+  <center>
+    <div class="jumbotron" >
+        <img class="image-responsive" src="../Webdotcom/image/Sans titre - 51.png" alt="">
+    </div>
+  </center>
+</header>  
 
 <!-- ============================================== TEAM SECTION ============================================ -->
 
 <section id="team">
   <div class="container">
+      <div class="top text-center">
+          <h2>L'équipe Dotcom</h2>
+          <h4><strong>Confiez la réalisation de votre projet à des professionnels passionnés !</strong></h4>
+      </div>
+      <br>
     <div class="row">
 
 <!-- ============================ WEB 1 ================================ -->
@@ -134,8 +141,8 @@
             </div>
           </div>
           <div class="img-text">
-            <h4>Faatau Antoine</h4>
-            <h5>Full-stack Développeur</h5>
+            <h4>Quillien Torea</h4>
+            <h5>Graphiste Designer</h5>
           </div>
         </div>
       </div>
@@ -156,8 +163,8 @@
             </div>
           </div>
           <div class="img-text">
-            <h4>Faatau Antoine</h4>
-            <h5>Full-stack Développeur</h5>
+            <h4>Poetai Gaëlle</h4>
+            <h5>Web marketing</h5>
           </div>
         </div>
       </div>
@@ -178,8 +185,8 @@
             </div>
           </div>
           <div class="img-text">
-            <h4>Faatau Antoine</h4>
-            <h5>Full-stack Développeur</h5>
+            <h4>Temeha Herehau</h4>
+            <h5>Front-end Développeur</h5>
           </div>
         </div>
       </div>
@@ -198,77 +205,84 @@
 <section id="service">
   <div class="container-fluid">
     <div class="text-center">
-      <h2>Nos service</h2>
-      <h4>Choose a payment plan that works for you</h4>
+      <h2>Nos services</h2>
+      <br>
+      <!-- <h4>Choose a payment plan that works for you</h4> -->
     </div>
       <div class="row">
 
 <!-- ============================ JOB 1 ================================ -->
         
-        <div class="col-sm-3 bg-7">
-          <div class="panel panel-default text-center">
-            <div class="panel-heading">
-              <h1>Graphiste</h1>
+        <div class="col-sm-4 bg-7">
+          <div class="panel panel-default ">
+            <div class="panel-heading text-center">
+              <h1>Graphiste-Designer</h1>
             </div>
             <div class="panel-body">
             </div>
             <div class="panel-footer">
-              <h3>$19</h3>
-              <h4>per month</h4>
-              <button class="btn btn-lg">Sign Up</button>
+                <ul>
+                  <br>
+                    <li>Réalise l'identité visuelle d'un site ( maquette,logo...)</li>
+                    <li>Définit le cahier des charges</li>
+                    <li>Design des interfaces dédiées au e-commerce et au e-marketing</li>
+                    <li><strong>Objectif :</strong> séduire les futurs utilisateurs du site</li>
+                    <br>
+                    <br>
+                </ul>
+              <center><button class="btn btn-lg">Contactez nous</button></center>
             </div>
           </div>
         </div>
 
 <!-- ============================ JOB 2 ================================ -->
 
-        <div class="col-sm-3 bg-7">
-          <div class="panel panel-default text-center">
-            <div class="panel-heading">
+        <div class="col-sm-4 bg-7">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">
               <h1>Développeur Web</h1>
             </div>
             <div class="panel-body">
             </div>
             <div class="panel-footer">
-              <h3>$29</h3>
-              <h4>per month</h4>
-              <button class="btn btn-lg">Sign Up</button>
+                <ul>
+                  <br>
+                    <li>Création de programme informatiques ( Logiciels, application smartphone...)</li>
+                    <li><strong>Analyse : </strong>Étudie les méthodes de réalisation d'un programme informatique selon les besoins des utilisateurs</li>
+                    <li><strong>Programmation : </strong> Développement technique,
+                      Installation des codes 
+                    </li>
+                    <li><strong>Application : </strong> Mise en place des modes emploi techniques sur l'installation et la manipulation du programme</li>
+                </ul>
+              <center><button class="btn btn-lg">Contactez nous</button></center>
             </div>
           </div>
         </div>
 
 <!-- ============================ JOB 3 ================================ -->
 
-        <div class="col-sm-3 bg-7">
-          <div class="panel panel-default text-center">
-            <div class="panel-heading">
+        <div class="col-sm-4 bg-7">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">
               <h1>Web marketting</h1>
             </div>
             <div class="panel-body"></div>
             <div class="panel-footer">
-              <h3>100$</h3>
-              <h4>per month</h4>
-              <button class="btn btn-lg">Sign Up</button>
+                <ul>
+                  <br>
+                    <li>Chargé de communication Web / Référenceur SEO</li>
+                    <li>Mise en place de stratégies marketing utilisant les canaux les plus innovants</li>
+                    <ol>
+                      <li><strong>Réseaux sociaux</strong></li>
+                      <li><strong>Applications mobiles</strong></li>
+                      <li><strong>Responsive design</strong></li>
+                      <li><strong>Emailings</strong></li>
+                    </ol>
+                </ul> 
+              <center><button class="btn btn-lg">Contactez nous</button></center>
             </div>
           </div>
         </div>
-
-        <!-- ============================ JOB 2 ================================ -->
-
-        <div class="col-sm-3 bg-7">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading">
-                <h1>Développeur Web</h1>
-              </div>
-              <div class="panel-body">
-              </div>
-              <div class="panel-footer">
-                <h3>$29</h3>
-                <h4>per month</h4>
-                <button class="btn btn-lg">Sign Up</button>
-              </div>
-            </div>
-          </div>
 
     </div>
   </div>
@@ -281,43 +295,93 @@
 <!-- ========================================= CONTACT SECTION ============================================ -->
 
 <section id="contact">
-  <div class="container">
-    <h3 class="text-center">Contact</h3>
-    <p class="text-center"><em>We love our fans!</em></p>
-    <div class="row test">
-      <div class="col-md-4">
-        <p>Fan? Drop a note.</p>
-        <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-        <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-        <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
-      </div>
-      <div class="col-md-8">
-        <div class="row">
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-          </div>
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-          </div>
-        </div>
-        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-        <div class="row">
-          <div class="col-md-12 form-group">
-            <button class="btn pull-right" type="submit">Send</button>
-          </div>
-        </div>
-      </div>
+    <div class="text-center">
+      <br>
+        <h2>Contactez nous</h2>
     </div>
-  </div> 
-</section>
+  <div class="container bg-7 contact-form" style="color:black">
+    <h1>Contact</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <address>Papeete,98713, Centre Vaima</address>
+            <P>Email: webdotcom@gmail.com</P>
+            <p>Phone: 40.57.57.41</p>
+        </div>
 
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Noms</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Prénoms</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Commentaires</label>
+                <textarea class="form-control" rows="10"></textarea>
+            </div>
+
+            <div class="form-group">
+               <button class="btn btn-primary btn-block">Envoyer</button>
+            </div>
+
+        </div>
+
+
+    </div>
+  </div>
+
+</section>
+<br>
 <!-- ============================================== FOOTER SECTION ======================================== -->
 
 
-<footer class="py-5 bg-dark">
+<footer style="background:gray">
   <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    <div class="row">
+        <div class="col-sm-4">
+          <br>
+            <h3>Team work</h3>  
+            <ul>
+                <li>Faatau Antoine : Développeur Web</li>
+                <li>Temehameha Herehau : Développeur Web</li>
+                <li>Quillien Torea : Graphiste-Designer</li>
+                <li>Poetai Gaëlle : Web-marketing</li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+          <br>
+            <h3>Services</h3>
+            <ul>
+                <li>Création de site Web</li>
+                <li>Réalisation de maquette,logo</li>
+                <li>Mettre en place des stratégies marketing utilisant les canaux innovant : réseaux sociaux, application mobile</li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+          <br>
+          <h3>Contact</h3>
+          <ul>
+              <li>Adresse: Papeete,98713, Centre Vaima </li>
+              <li>Tel: 40.57.57.41</li>
+              <li>Ville: Papeete</li>
+          </ul>
+        </div>
+    </div>
+<br>
+    <div class=" text-center">
+        <p>Copyright &copy;2019 | mention légal</p>
+    </div>
   </div>
+  <br>
 </footer>
 
 

@@ -277,3 +277,27 @@ input:checked + .slider:before {
   font-family: bignoodletitling;
   font-weight: bold;
 }
+
+/* =========CONTACT=========== */
+
+.contact-form{
+  background:rgba(216, 211, 211, 0.911);
+  color:white;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 3px grey;
+}
+
+.top{
+  margin-top: -10%;
+}
+
+ #contact{
+  overflow: auto;
+  padding: 10px;
+  background-image: url(../image/polynesian-pattern.png);
+  background-color: rgba(255, 255, 255, 0.1);
+  background-repeat: repeat-x;
+  background-size: 250px;
+  background-position: center;
+ }
